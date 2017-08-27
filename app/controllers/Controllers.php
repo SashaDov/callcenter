@@ -20,5 +20,21 @@ use vendor\core\base\Controller;
  */
 class Controllers extends Controller
 {
-//
+
+    protected function sessionData ()
+    {
+        session_start();
+        if (isset($_SESSION['login']))
+        {
+            $name = $_SESSION['name'];
+            $this->setVariables(compact('name'));
+            return true;
+        }
+        else
+        {
+            header("Location: http://www.call/main/index");
+            exit;
+        }
+
+    }
 }

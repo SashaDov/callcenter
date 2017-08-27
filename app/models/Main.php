@@ -15,11 +15,11 @@ class Main extends Model
 {
 
     //table with witch the model Main works
-    public $table = 'posts';
+    public $table = 'employee';
 
     //overdetermining of property "primary key"
-    public $primary_key = "thema";
+    public $primary_key = 'login';
 
     //only 'thema' in DB could be changed by user
-    public $unrestricted_fields_db = ['thema'];
+    public $unrestricted_fields_db;
 }

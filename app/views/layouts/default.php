@@ -21,8 +21,8 @@
 
 <div class="container">
 <h3><?=$content?></h3>
-    <?= debug(vendor\core\Db::$countSql) ?>
-    <?= debug(\vendor\core\Db::$queriesAll) ?>
+    <?php //debug(vendor\core\Db::$countSql)
+    //debug(\vendor\core\Db::$queriesAll) ?>
 </div>
 
 

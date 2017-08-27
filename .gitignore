@@ -1,7 +1,5 @@
 #php storm project files
 .idea/
 
-bootstrap/
-test/
 
 temp/cache

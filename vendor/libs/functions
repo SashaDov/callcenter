@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * f_debug print data into format
+ * @param any
+ */
+function debug($arr)
+{
+    echo '<pre>'.print_r($arr, true).' </pre>';
+}
+
+/**
+ * f_speedScript is test function for timing of script
+ */
+function speedScript ()
+{
+    $start = microtime(true);
+    //параметры на вход
+    // тело функции
+    echo 'Время выполнения скрипта: '.(microtime(true) - $start).' сек.';
+}

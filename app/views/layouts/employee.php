@@ -24,8 +24,10 @@
             <a class="navbar-brand" href="#"><?= $name?></a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Link</a></li>
+            <li class="active"><a href="http://www.call/call/index">Главная</a></li>
+            <li><a href="http://www.call/call/old-clients">Поиск</a></li>
+            <li><a href="http://www.call/call/new-clients">Регистрация</a></li>
+
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="http://www.call/main/loginOut"><span class="glyphicon glyphicon-log-in"></span> Выход</a></li>

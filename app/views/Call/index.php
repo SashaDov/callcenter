@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="panel panel-success">
-        <div class="panel-heading">Работа с постоянными клиентами по новому заказу</div>
+        <div class="panel-heading"><a href="http://www.call/call/old-clients">Работа с постоянными клиентами по новому заказу</a></div>
         <div class="panel-body">
             <dl>
                 <dd>- найти покупателя в базе данных</dd>
@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="panel panel-success">
-        <div class="panel-heading">Работа с клиентами по текущим заказам</div>
+        <div class="panel-heading"><a href="http://www.call/call/current-orders">Работа с клиентами по текущим заказам</a></div>
         <div class="panel-body">
             <dl>
                 <dd>- найти заказ по номеру</dd>
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="panel panel-success">
-        <div class="panel-heading">Работа с клиентской базой</div>
+        <div class="panel-heading"><a href="http://www.call/call/database-clients">Работа с клиентской базой</a></div>
         <div class="panel-body">
             <dl>
                 <dd>- телефоны для обзвона потенциальных клиентов</dd>
